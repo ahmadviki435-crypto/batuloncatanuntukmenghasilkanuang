@@ -1,20 +1,190 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    
+}
+
 body {
-    background-color: #FFFFE0;
-    font-family: Arial; sans-serif;
-    color: #191970;
+      background-image: url('PPDB-removebg-preview\ \(1\).png');
+      background-repeat:  no-repeat;
+      background-position: right top;
+      background-attachment: cover ;
+      background-size: 500px;
 }
 
-.kartu-profil {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color:white;
-    border-radius: 15px;
-    box-shadow: 0 4px; 8px; rgba(0,0,0,0.1);
-    text-align:  center;
+nav {
+        border-bottom: 2px solid yellow;
+
+}
+.nav-content {
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        margin: auto;
+        align-items: center;
+        height: 80px;
 }
 
-.kartu-profil img {
-    width: 150px;
-    border-radius: 50%;
+.isi {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        
+}
+
+.tombol-atas li {
+        display: inline-block;
+        margin-left: 40px;
+}
+
+.tombol-atas li a {
+        color: rgb(0, 0, 0);
+        font-weight: 550;
+}
+
+.tombol-atas li a:hover {
+        color: goldenrod;
+        transition-duration: 300ms;
+        transition-delay: 300ms;
+}
+
+.tombol-atas .btn-reg {
+        background-color: blue;
+        color: white;
+        padding: 14px 17px;
+        border-radius: 20px;
+}
+
+.tombol-atas .btn-reg:hover {
+        background-color: yellow;
+        color: black;
+        transition-duration: 300ms;
+        transition-delay: 300ms;
+}
+
+ main {
+        width: 1150px;
+        margin: auto;
+        padding: 20px 0;
+        display: flex;
+        height: calc(100vh - 80px);
+}
+
+.tagline {
+        margin-top: 50px;
+}
+
+.tagline .tag {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(8, 129, 30);
+        margin-bottom: 20px;
+}
+
+.tagline .deskripsi {
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-weight: 500;
+        color: black;
+        margin-top: 40px;
+        line-height: 20px;
+}
+
+.jarak {
+        font-family: 'Arial', Helvetica, sans-serif;    
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 15px;
+}
+
+.otak {
+        font-size: 50px;
+        margin-top: 20px;
+        color: green;
+}
+
+#Profil {
+        width: 1150px;
+        margin: auto;
+        display: flex;
+        padding: 80px 30px;
+}
+#Profil img {
+        height: 300px;
+        margin-right: 100px;
+}
+
+.title {
+        font-family: 'nunito';
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-weight: 800; 
+        color: blue;      
+}
+.pgh {
+        margin-bottom: 20px;          
+        color: #d39d25;
+}
+.wr {
+        color: #d39d25;
+}
+#Kontak { 
+        width: 1150px;
+        margin: auto;
+        text-align: center;
+        padding: 40px 0;
+}
+
+#Kontak .row {
+        display: flex;
+        justify-content: space-between;
+}
+
+#Kontak .row .map {
+        width: 45%;
+        height: 350px;
+}       
+
+#Kontak .row .pesan {
+        width: 50%;
+        text-align: left;
+}
+
+#Kontak .pesan .box {
+        height: 45px;
+        width: 100%;
+        margin-bottom: 15px;
+}
+
+#Kontak .pesan input,
+#Kontak .pesan textarea {
+height: 100%;
+width: 100%;
+border: 1px solid lightgray;
+border-radius: 6px;
+outline: none;
+padding: 0 15px;
+font-size: 15px;
+
+}
+
+#Kontak .pesan .message {
+        height: 100px;
+}
+#Kontak .pesan textarea {
+        padding: 10px;
+        resize: none;
+}
+
+#Kontak .pesan .btn-send button {
+background: #d39d25;
+color: white;
+padding: 14px 20px;
+font-size: 17px;
+border-radius:  20px;
+font-weight: 600;
+cursor: pointer;
+border: none;   
 }
