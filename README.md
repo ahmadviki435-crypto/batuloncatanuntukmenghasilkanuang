@@ -1,1 +1,1 @@
-SAYA PERLU MENAMBAHKAN GAMBAR
+website sekolah yg belum lengkap dan  responsive
